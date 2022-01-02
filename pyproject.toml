@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "EOT"
+version = "0.1.0"
+description = "DM de Transport Optimal (MVA 2021)"
+authors = ["Guillaume Peltier <guillaume.peltier.pro@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+jupyterlab = "^3.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
