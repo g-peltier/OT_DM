@@ -2,7 +2,7 @@
 # ---
 # jupyter:
 #   jupytext:
-#     formats: ipynb,py:percent
+#     formats: ipynb,py:percent,md
 #     text_representation:
 #       extension: .py
 #       format_name: percent
@@ -59,7 +59,7 @@ if True :
         size_matrix = 1 + num_samples*(4+n_float)
         print(f"{f'Cost Matrix Agent {i}':^{size_matrix}}\n")
         print(cost_matrix, "\n")
-        
+
 
 # %%
 ### test the accuracy of the algo compared to LP solver
