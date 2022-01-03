@@ -63,7 +63,7 @@ if True :
 
 # %%
 ### test the accuracy of the algo compared to LP solver
-if True :
+if False :
     utils.plot_accuracy_algorithm(C, a, b)
 
 
@@ -120,7 +120,7 @@ diff_res = [diff_prc_simu_2(res) for res in simulations]
 
 # %%
 s = np.argsort(diff_res)
-plt.hist(np.take(diff_res, s), 30)
+plt.hist(np.take(diff_res, s), 40)
 plt.show()
 
 # %%
