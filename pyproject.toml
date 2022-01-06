@@ -7,13 +7,15 @@ authors = ["Guillaume Peltier <guillaume.peltier.pro@gmail.com>"]
 [tool.poetry.dependencies]
 python = ">=3.9, <3.10"
 tqdm = "^4.62.3"
-numpy = ">=1.17,<1.20"
+numpy = ">=1.17,<=1.20"
 numba = "^0.54.1"
 matplotlib = "^3.5.1"
 scipy = "^1.7.3"
 jupytext = "^1.13.5"
 nbdime = "^3.1.1"
 ipywidgets = "^7.6.5"
+pandas = "^1.3.5"
+seaborn = "^0.11.2"
 
 
 [tool.poetry.dev-dependencies]
